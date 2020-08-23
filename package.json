@@ -1,6 +1,6 @@
 {
   "name": "@fdiskas/workshop-versioning",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "npm package versioning automation",
   "main": "index.js",
   "scripts": {
