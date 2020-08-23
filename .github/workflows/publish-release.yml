@@ -16,17 +16,11 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set git user
-        run: |
-          git config --local user.email "$(git log --format='%ae' HEAD^!)"
-          git config --local user.name "$(git log --format='%an' HEAD^!)"
-
       - name: Publish
         run: |
-          npm ci
+          npm ci --ignore-scripts
           npm version prerelease --preid beta
           npm publish
-          git push
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -41,16 +35,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set git user
-        run: |
-          git config --local user.email "$(git log --format='%ae' HEAD^!)"
-          git config --local user.name "$(git log --format='%an' HEAD^!)"
-
       - name: Publish
         run: |
-          npm ci
+          npm ci --ignore-scripts
           npm version ${{ github.event.release.tag_name }}
           npm publish
-          git push
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
