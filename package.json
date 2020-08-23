@@ -4,9 +4,7 @@
   "description": "npm package versioning automation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0",
-    "semantic-release": "semantic-release",
-    "cm": "git-cz"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -22,14 +20,6 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-  "config": {
-    "commitizen": {
-      "path": "git-cz"
-    }
-  },
   "dependencies": {},
-  "devDependencies": {
-    "git-cz": "^4.7.0",
-    "semantic-release": "^17.1.1"
-  }
+  "devDependencies": {}
 }
