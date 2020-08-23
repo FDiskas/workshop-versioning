@@ -22,7 +22,7 @@ jobs:
           git config --local user.name "$(git log --format='%an' HEAD^!)"
 
       - name: Publish
-      - run: |
+        run: |
           npm ci
           npm version prerelease --preid beta
           npm publish
