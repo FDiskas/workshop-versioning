@@ -3,7 +3,7 @@ name: Create Release Draft
 on:
   push:
     branches:
-      - stage
+      - master
 
 jobs:
   update_release_draft:
