@@ -1,5 +1,5 @@
 {
-  "name": "workshop-versioning",
+  "name": "@fdiskas/workshop-versioning",
   "version": "1.0.0",
   "description": "npm package versioning automation",
   "main": "index.js",
@@ -19,5 +19,6 @@
   "homepage": "https://github.com/FDiskas/workshop-versioning#readme",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
-  }
+  },
+  "dependencies": {}
 }
