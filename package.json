@@ -1,11 +1,12 @@
 {
   "name": "@fdiskas/workshop-versioning",
-  "version": "0.0.0-development",
+  "version": "1.0.4",
   "description": "npm package versioning automation",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "cm": "git-cz"
   },
   "repository": {
     "type": "git",
