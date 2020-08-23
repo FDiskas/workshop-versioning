@@ -1,11 +1,9 @@
 {
   "name": "@fdiskas/workshop-versioning",
-  "version": "1.0.6",
+  "version": "0.0.0",
   "description": "npm package versioning automation",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git://github.com/FDiskas/workshop-versioning.git"
