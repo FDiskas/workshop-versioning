@@ -15,7 +15,6 @@ jobs:
           scope: "@fdiskas"
 
       - run: npm ci
-      - run: npm test
 
       - name: Release
         env:
