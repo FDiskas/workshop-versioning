@@ -1,4 +1,4 @@
 # workshop-versioning
 npm package versioning automation
 
-Try all variations
+Try all variations - should work
